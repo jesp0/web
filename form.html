@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="nn">
+<head>
+	<meta charset="utf-8">
+	<title> Nyhetsbrev </title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="javascript.js"></script>
+</head>
+<body>
+	<img class="banner" src="https://www.toyotaoman.com/wp-content/uploads/2020/06/toyota_banner-1.jpg" alt="Bilde av Toyota Vestfold og Telemark hovedkvarter">
+	<header>
+		<div>
+			<p class="whatPage">Nyhetsbrev</p>
+		</div>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<nav class="nav" id="navId"> 
+			<ul>
+				<li><a href="index.html"> Hjem</a></li>
+				<li><a href="product.html"> Produkter</a></li>
+				<li><a href="why.html"> Hvorfor Toyota</a></li>
+				<li><a href="career.html"> Karriere</a></li>
+				<li><a href="media.html"> Media</a></li>
+				<li><a href="about.html"> Om oss</a></li>
+				<li><a href="form.html" class="active"> Nyhetsbrev</a></li>
+				<li><a href="javascript:void(0);" id="icon" onclick="hamburger()">
+						<i class="fa fa-bars"></i>
+					</a>
+			</ul>			
+		</nav>
+	</header>
+	<h1 class="head1">Meld deg på vårt nyhetsbrev!</h1>
+	<div class="wrapper">
+		<p>Meld deg på vår nyhetsbrev i dag for å motta siste nytt om Toyota både i Norge og internasjonalt. Dersom du melder deg på vil du få et månedlig nyhetsbrev sendt i postkassen din. Når du melder deg på nyhetsbrevet sender vi deg en SMS på mbilnummeret du oppga. Deretter må du bekrefte din påmelding med mobilen din. Når du har gjort det, vil du få en ny SMS fra oss i Toyota med en siste bekreftelse på at din påmelding er mottatt og bekreftet. Deretter er det bare å glede seg til Toyotas nyhetsbrev er i postkassen din!</p>
+		<p class="litenSkrift">Abonnementet koster 999,- pr/mnd. Bindingstid: 10 år. Aldersgrense: 18 år.</p>
+	</div>
+	<div class="skjemaDiv">
+  	<h3>Påmelding</h3>
+  	<div id="error_melding"></div>
+  	<form id="skjema" onsubmit="return validate();">
+	    <div class="input">
+	        <input type="text" placeholder="Fornavn" id="fornavn">
+	    </div>
+	    <div class="input">
+	        <input type="text" placeholder="Etternavn" id="etternavn">
+	    </div>
+	    <div class="input">
+	        <input type="text" placeholder="Alder" id="alder">
+	    </div>
+	    <div class="input">
+	        <input type="text" placeholder="Adresse" id="adresse">
+	    </div>
+	    <div class="input">
+	        <input type="text" placeholder="Mobilnummer (8 tall)" id="mobil">
+	    </div>
+	    <div class="btn">
+	        <input type="submit" value="Send">
+	    </div>
+	    <div class="btn">
+	        <input type="reset">
+	    </div>
+	</form>
+	</div>
+
+	<footer class="footer">
+		<p>Copyright © Toyota</p>
+		<p>Oppgavestart: 23. september 2021</p>
+	</footer>
+
+
+</body>
+</html>

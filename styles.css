@@ -1,0 +1,499 @@
+body{
+/* Gjør at body bruker hele bredden til nettsiden, og velger font */  
+  width: 100%; 
+  margin: 0px;  
+  padding: 0px;  
+  font-family: sans-serif;
+  background-color: white;
+}
+.banner{
+/* Gjør at bannerbildene bruker hele bredden til nettsiden */
+  width: 100%;
+}
+h1{
+  font-size: 50px;
+}
+header{
+/* Gjør at navigasjonsbaren fester seg i toppen av nettsiden når man scroller ned 
+og at den alltid er foran alt annet (z-index)*/  
+  width: 100%;
+  background-color: red;
+  position: sticky;
+  top: 0px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 5px 10px 0 black;
+  z-index: 1;
+}
+
+nav ul li{
+/* Lager mellomrom mellom elementene i nav-lista og plasserer de ved siden av hverandre */
+  margin: 20px;
+  display: inline;
+}
+nav ul li a{
+/* Gir farge og understrek til teksten i nav */
+  color: black;
+  padding-top: 7px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.footer{
+/* Gir footeren farger og plasserer den et stykke under alt annet innhold */
+  padding: 3px;
+  background-color: #303030;
+  color: white;
+  position: relative;
+  margin-top: 100px;
+  text-align: center;
+}
+td img{
+/* Gjør at bildene i tabellen får litt luft mellom seg og dytter tabellen litt ut i fra sidekanten */
+  width: 90%;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+#vid{
+  display: block;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  border: 1px solid black;
+  box-shadow: 0px 5px 10px 0 black;
+}
+.forside{
+  width: 300px;
+  height: 400px;
+  border: 1px solid black;
+  box-shadow: 0px 5px 10px 0 black;
+  display: inline-block;
+  margin-top: 2%;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+.forside2{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#boks1{
+/* Bilde fra https://www.carscoops.com/2020/06/2020-toyota-hilux-has-tweaked-looks-and-a-new-2-8-liter-diesel/ */
+  background-image: url(https://www.carscoops.com/wp-content/uploads/2020/06/2021-Toyota-Hilux-37.jpg);
+  background-position: 0px 0px;
+  background-size: 220%;
+  margin-left: 7%;
+  
+}
+#boks2{
+/* Bilde fra https://www.litchfieldmotors.com/blog/toyota-gr-yaris-starting-development/ */
+  background-image: url(https://www.litchfieldmotors.com/wp-content/uploads/DSC_7881.jpg);
+  background-position: -20px 0px;
+  background-size: 240%;
+}
+#boks3{
+/* Bilde fra https://pressroom.toyota.com/lights-turned-down-on-2020-corolla-family-with-nightshade-editions/ */
+  background-image: url(https://toyota-cms-media.s3.amazonaws.com/wp-content/uploads/2019/08/2020_Corolla_Nightshade_14-1500x1000.jpg);
+  background-position: -350px 0px;
+  background-size: 230%;
+  margin-right: 7%;
+}
+#boks4{
+/* Bilde fra https://cars.usnews.com/cars-trucks/toyota */
+  background-image: url(https://cars.usnews.com/static/images/Auto/custom/14801/2022_Toyota_4Runner_1.jpg);
+  background-position: -250px -150px;
+  background-size: 270%;
+  display: none;
+}
+
+/* TIL PRODUCT.HTML */
+.tabellTekst{
+/* Gjør tekst bold for å utheve modellnavnet*/
+  font-weight: bold;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.pris{
+/* Dytter ned neste rad så tabellen er mer oversiktlig */
+  text-align: center;
+  margin-top: 5px;
+}
+
+.wrapper {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  margin-top: 3rem;
+  line-height: 1.5rem;
+}
+.hhe{
+  margin: auto;
+  margin-top: 100px;
+  line-height: 40px;
+  font-size: 30px;
+  margin-left: 20%;
+}
+.head1 {
+  text-align: center;
+}
+.head2 {
+  text-align: center;
+  margin-top: 2rem;
+}
+#head3 {
+  text-align: center;
+}
+.quote {
+  text-align: center;
+  width: 82%;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  font-size: x-large;
+}
+input[type="text"], input[type="submit"]{
+  display: block;
+  width: 200px;
+  height: 40px;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+input[type="submit"] {
+  width: 150px;
+}
+.toyotaMerket {
+  display: block;
+  margin-top: 3rem;
+  margin-left: 42%;
+  width: 15%;
+}
+.toyotaMerket2 {
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 30%;
+  width: 200px;
+}
+.toyotaMerket3 {
+  position: absolute;
+  margin-top: 60px;
+  margin-left: 55%;
+  width: 15%;
+}
+.nyhet{
+  display: inline-block;
+  width: 50%;
+  border: 1px solid black;
+  box-shadow: 0px 5px 10px 0 black;
+  margin-left: 25%;
+}
+.crap {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  line-height: 1.5rem;
+  text-align: center;
+}
+
+
+/*Posisjon til index-slider*/
+.left, .right {
+  position: absolute;
+}
+/*Gjør at slideren fader mellom bildene*/
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* Responsiv nav - liten skjerm */
+@media (max-width: 1024px) {
+  .banner{
+    display: none;
+  }
+  .toyotaMerket2{
+    display: none;
+  }
+  .toyotaMerket3{
+    display: none;
+  }
+
+  /* Forteller hvilken side som vises */
+  .whatPage{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: -10px;
+  }
+  /* Skjuler nav-elementene untatt hamburger-ikonet */
+  .nav li:not(:last-child){
+    display: none;
+  } 
+
+  .nav.responsive, #icon{
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  /* Dette er drop down menyen, gjelder for alle elementer i lista utenom
+  burgermenyen, som er last-child */
+  .nav.responsive li:not(:last-child){
+    float: none;
+    display: block;
+    text-align: left;
+    background-color: red;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 7px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    position: relative;
+    top: -25px;
+  }
+  .nav{
+    width: 90%;
+  }
+
+/* Responsiv index.html (liten skjerm)*/
+
+  #vid{
+    display: none;
+  }
+  #boks1{
+    display: none;
+  }
+  #boks2{
+    display: none;
+  }
+  #boks3{
+    display: none;
+  }
+  #boks4{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+  .mySlides {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+/* Responsiv product.html (liten skjerm) */
+
+  .wrapper{
+    width: 90%;
+  }
+
+  .carInfo{
+    margin-left: 2.5%;
+    width: 45%;
+    display: inline-block;
+  }
+
+  .ekstrautstyr{
+  /* Fjerner dotten på listeelementene, lager ramme rundt og legger til skygge*/
+    text-align: center;
+    margin: 0 auto;
+    list-style-type: none;
+    display: block;
+    border: 1px solid black;
+    box-shadow: 0px 5px 10px 0 black;
+    padding: 50px;
+    width: 45%;
+    height: 20%;
+    color: white;
+  /* Lager omriss rundt teksten så den er lettere å lese */
+    text-shadow: 1px 0 0 black, 0 -1px 0 black, 0 1px 0 black, -1px 0 0 black;  
+  }
+
+  #liste1{
+    background-position: -350px -240px;
+    margin-bottom: 20px;
+    background-image: url(https://www.favorittreiser.no/wp-content/uploads/2019/07/Grossglockner-Roadtrip-Europa-1024x507.jpg);
+  }
+  #liste2{
+    background-position: -430px -200px;
+    margin-bottom: 20px;
+    background-image: url(https://racer.com/wp-content/uploads/sites/85/2021/07/1018230800-LAT-20200909-GP2009_101009_69I1300.jpg?w=1000&h=600&crop=1);
+  }
+  #liste3{
+    background-position: -600px -250px;
+    background-image: url(https://www.pnas.org/content/pnas/118/3/e2024425118/F1.large.jpg);
+  }
+}
+
+
+
+/* Responsiv nav - stor skjerm */
+@media (min-width: 1024px) {
+  /* Gjemmer burgermenyen */
+  #icon{
+    display: none;
+  }
+  /* Sideoversikten skal bare vises på liten skjerm */
+  .whatPage{
+    position: absolute;
+    display: none;
+  }
+
+  .forside{
+    display: inline-block;
+  }
+  .mySlides {
+    width: 70%;
+    margin-left: 15%; 
+  }
+
+/* Responsiv product.html (stor skjerm) */  
+  .carInfo{
+    width: 32%;
+    display: inline-block;
+  }
+
+  .carContainer{
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    padding: 0;
+  }
+/* Lager flexbox slik at bildene har lik avstand mellom hverandre
+   og er sentrert */
+  .ekstraContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+  }
+  .ekstrautstyr{
+  /* Fjerner dotten på listeelementene, lager ramme rundt og legger til skygge*/
+    list-style-type: none;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 30px;
+    width: 200px;
+    height: 150px;
+    box-shadow: 0px 5px 10px 0 black;
+    text-align: center;
+    color: white;
+  /* Lager omriss rundt teksten så den er lettere å lese */
+    text-shadow: 1px 0 0 black, 0 -1px 0 black, 0 1px 0 black, -1px 0 0 black;
+  /* Bilde fra https://suwalls.com/photography/road-above-the-clouds */
+    background-image: url(https://cdn.suwalls.com/wallpapers/photography/road-above-the-clouds-35184-1920x1200.jpg);
+  }
+
+  #liste1{
+    background-position: -85px -300px;
+    margin-left: 5%;
+  }
+  #liste2{
+    background-position: -400px -300px;
+  }
+  #liste3{
+    background-position: -715px -300px;
+    margin-right: 5%;
+  }
+
+}
+
+/* Uthever siden man er på i navbaren */
+.active{
+  background-color: maroon;
+  color: white;
+}
+/* Endrer farge på linkene i nav-baren når man hovrer */
+.nav a:hover{
+  background-color: tomato;
+  color: black;
+}
+
+.produktBilde{
+  width: 100%;
+}
+
+/* SKJEMA */
+.skjemaDiv{
+  position: relative;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  max-width: 350px;
+  width: 100%;
+  background-color: #fff;
+  padding: 25px;
+  border: 10px solid red;
+  border-radius: 5px;
+  box-shadow: 4px 4px 2px maroon; 
+  
+}
+.skjemaDiv h3{
+  text-align: center;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 25px;
+}
+.skjemaDiv .input{
+  margin-bottom: 10px;
+}
+/* Input-feltets utforming */
+.skjemaDiv .input input[type="text"]{
+  border: 1px solid #e0e0e0;
+  width: 90%;
+  padding: 10px;
+}
+
+/* Utforming til skjemaets "send" og "reset" button */
+.skjemaDiv .btn input[type="submit"], input[type="reset"]{
+  border: 0px;
+  margin-top: 15px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px maroon;
+}
+#error_melding{
+  margin-bottom: 20px;
+  background: tomato;
+  padding: 0px;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
+.litenSkrift{
+  font-size:8px;
+  color: lightgray;
+}

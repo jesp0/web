@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="nn">
+<head>
+	<meta charset="utf-8">
+	<title> Produkt </title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="javascript.js"></script>
+</head>
+<body>
+	<img class="banner" src="https://www.toyotaoman.com/wp-content/uploads/2020/06/toyota_banner-1.jpg" alt="Bilde av Toyota Vestfold og Telemark hovedkvarter">
+	<header>
+		<div>
+			<p class="whatPage">Produkter</p>
+		</div>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<nav class="nav" id="navId"> 
+			<ul>
+				<li><a href="index.html"> Hjem</a></li>
+				<li><a href="product.html" class="active"> Produkter</a></li>
+				<li><a href="why.html"> Hvorfor Toyota</a></li>
+				<li><a href="career.html"> Karriere</a></li>
+				<li><a href="media.html"> Media</a></li>
+				<li><a href="about.html"> Om oss</a></li>
+				<li><a href="form.html"> Nyhetsbrev</a></li>
+				<li><a href="javascript:void(0);" id="icon" onclick="hamburger()">
+						<i class="fa fa-bars"></i>
+					</a>
+			</ul>			
+		</nav>
+	</header>
+	<h1 class="head1">Våre Modeller</h1>
+	<h2 class="head2">På utkikk etter ny bil?</h2> 
+	<div class="wrapper">Her ser du en oversikt over de ulike Toyota modellene. Her er det et bredt spekter, og noe for ethvert behov<br/>Om du trenger en mindre bil nr. 2 eller om det er familiebilen du er på utkikk etter, - vi har bilen for deg. Ta gjerne en nærmere kikk.</div>
+
+<!-- Alle bildene er hentet fra https://www.toyota.no/specs/index.json -->
+	<div class="carContainer">
+		<div class="carInfo">
+			<img class="produktBilde" src="https://t1-cms-2.images.toyota-europe.com/toyotaone/nono/aygo_tcm-3017-1494370.jpg" 				alt="Bilde av Aygo">
+			<p class="tabellTekst">Aygo</p>
+			<p class="pris">Fra 175 200,-</p>
+		</div>
+		<div class="carInfo">
+			<img class="produktBilde" src="https://t1-cms-3.images.toyota-europe.com/toyotaone/nono/yaris-2020_tcm-3017-1494521.png"		alt="Bilde av Yaris">
+			<p class="tabellTekst">Yaris</p>
+			<p class="pris">Fra 262 300,-</p>
+		</div>
+		<div class="carInfo">
+			<img class="produktBilde" src="https://t1-cms-3.images.toyota-europe.com/toyotaone/nono/yariscross_tcm-3017-2355482.png"		alt="Bilde av Yaris Cross">
+			<p class="tabellTekst">Yaris Cross</p>
+			<p class="pris">Fra 316 100,-,-</p>
+		</div>
+		<div class="carInfo">
+			<img class="produktBilde" src="https://t1-cms-4.images.toyota-europe.com/toyotaone/nono/prius_tcm-3017-1499941.jpg" 			alt="Bilde av Prius">
+			<p class="tabellTekst">Prius</p>
+			<p class="pris">Fra 326 200,-</p>
+		</div>
+		<div class="carInfo">
+			<img class="produktBilde" src="https://t1-cms-3.images.toyota-europe.com/toyotaone/nono/priusplugin_tcm-3017-1499943.jpg" 		alt="Bilde av Prius Plug-in">
+			<p class="tabellTekst">Prius Plug-in</p>
+			<p class="pris">Fra 345 800-</p>
+		</div>
+		<div class="carInfo">
+			<img class="produktBilde" src="https://t1-cms-3.images.toyota-europe.com/toyotaone/nono/chr_tcm-3017-1499944.jpg" 				alt="Bilde av C-HR">
+			<p class="tabellTekst">C-HR</p>
+			<p class="pris">Fra 356 900,-</p>
+		</div>
+		<div class="carInfo">
+			<img class="produktBilde" src="https://t1-cms-4.images.toyota-europe.com/toyotaone/nono/rav4New_tcm-3017-1499945.jpg" 			alt="Bilde av RAV 4">
+			<p class="tabellTekst">RAV-4</p>
+			<p class="pris">Fra 429 500,-</p>
+		</div>
+		<div class="carInfo">
+			<img class="produktBilde" src="https://t1-cms-2.images.toyota-europe.com/toyotaone/nono/rav4plug_tcm-3017-2056431.png" 			alt="Bilde av RAV 4 Plug-in">
+			<p class="tabellTekst">RAV-4 Plug-in</p>
+			<p class="pris">Fra Fra 514 200,-</p>
+		</div>
+		<div class="carInfo">
+			<img class="produktBilde" src="https://t1-cms-1.images.toyota-europe.com/toyotaone/nono/Mirai-brosjyre_tcm-3017-1499946.jpg" 	alt="Bilde av Mirai">
+			<p class="tabellTekst">Mirai</p>
+			<p class="pris">Fra 546 900,-</p>
+		</div>
+		<div class="carInfo">
+			<img class="produktBilde" src="https://t1-cms-1.images.toyota-europe.com/toyotaone/nono/lc_tcm-3017-1499948.jpg" 				alt="Bilde av Land Cruiser">
+			<p class="tabellTekst">Land Cruiser</p>
+			<p class="pris">Fra 504 814,-(eks mva)</p>
+		</div>
+		<div class="carInfo">
+			<img class="produktBilde" src="https://t1-cms-3.images.toyota-europe.com/toyotaone/nono/hilux_tcm-3017-1499949.jpg" 			alt="Bilde av Hilux">
+			<p class="tabellTekst">Hilux</p>
+			<p class="pris">Fra 398 900,-(eks mva)</p>
+		</div>
+		<div class="carInfo">
+			<img class="produktBilde" src="https://t1-cms-1.images.toyota-europe.com/toyotaone/nono/proace_tcm-3017-1499950.jpg" 			alt="Bilde av Proace">
+			<p class="tabellTekst">Proace</p>
+			<p class="pris">Fra 307 612,-(eks mva)</p>
+		</div>
+	</div>
+
+	<div class="wrapper">Det finnes en Toyota til alle behov, kom innom din nærmeste Toyota-forhandler for en prøvekjøring.</div>
+
+	<h2 class="head2">Ekstra-utstyr</h2>
+	<div class="wrapper"><i>Er du ute etter det lille ekstra? Her kan du se utstyrspakker vi tilbyr deg og din Toyota.</i></div>
+	<div class="ekstraContainer">
+		<ul class="ekstrautstyr" id="liste1">
+			<li><strong>Turpakken</strong></li>
+			<li>Cruise-control</li>
+			<li>Flom-lys</li>
+			<li>Takstativ</li>
+			<li>Hengerfeste</li>
+			<li>BOSE Høytalersystem</li>
+			<li>Wunderbaum</li>
+		</ul>
+		<ul class="ekstrautstyr" id="liste2">
+			<li><strong>Sportspakken</strong></li>
+			<li>22"-felger i karbonfiber</li>
+			<li>Sportsseter</li>
+			<li>Xenon frontlykter</li>
+			<li>Brembo-bremser</li>
+			<li>Spoiler</li>
+			<li>Wunderbaum</li>
+		</ul>
+		<ul class="ekstrautstyr" id="liste3">
+			<li><strong>Familiepakken</strong></li>
+			<li>Cruise-control</li>
+			<li>Skinn-seter</li>
+			<li>BOSE Høytalersystem</li>
+			<li>Hengerfeste</li>
+			<li>5-års service</li>
+			<li>Wunderbaum</li>
+		</ul>
+	</div>
+	<div class="wrapper">Ekstrautstyr kjøpes i pakker til en rimelig pris.<br/> Hver enkelt tilbehørspakke er satt sammen for å gi deg mye for pengene, samtidig som det blir enklere å få bilen din akkurat slik du ønsker den.<br/> Vi tilbyr ulike typer tilbehørpakker til mange av våre nye modeller.</div>
+
+	<footer class="footer">
+		<p>Copyright © Toyota</p>
+		<p>Oppgavestart: 23. september 2021</p>
+	</footer>
+</body>
+</html>
